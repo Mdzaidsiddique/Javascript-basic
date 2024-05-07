@@ -1,0 +1,45 @@
+//Arrays
+let arr = [1, 2, 3, 4, 5, 6, 7];
+
+arr[0] = 5 //update value of perticular index with provided value
+
+arr.pop(); //remove from last
+arr.shift(); //remove from first
+//console.log(arr);
+
+arr.push(9) //add element at last
+arr.unshift(0) //add element at first
+//console.log(arr.length); // number of elements present 
+
+let arr1 = new Array(1, 2, 3, 4);
+let arr2 = [5, 6, 7, 8]
+
+let arr3 = arr1.concat(arr2) 
+//slice()
+// console.log(arr3.slice(0, 3)); //original array won't change, exclude last parameter
+// console.log(arr3);
+
+//splice()
+// console.log(arr3.splice(0, 3)); //modify original array, include last paramente
+// console.log(arr3);
+
+//flat()
+let array = new Array(1, 2, 3, 4, [34, 4, [5, 3]]);
+console.log(array);
+let flattedArray = array.flat(Infinity);
+console.log(flattedArray);
+
+//include()
+// console.log(array.includes(34));
+// console.log(array.includes(3));
+
+
+//spread operator
+let array1 = [1, 2, 3, 5]
+let array2 = new Array(6, 7, 8, 4)
+let array3 = [];
+array3.push(11,12)
+array3.push(13)
+array3.unshift(10)
+
+console.log(...array1, ...array2, ...array3) //print all arrays at a time
