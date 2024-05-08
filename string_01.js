@@ -7,6 +7,8 @@ let name = "Khan"
 let nationality = "Indian"
 
 // string creation
+let as = String("zaid")
+
 let strTemp = `welcome  Mr ${name} to ${nationality}`
 console.log(typeof strTemp);
 

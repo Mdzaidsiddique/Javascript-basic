@@ -38,4 +38,4 @@ console.log(convertedNumber, typeof (convertedNumber)); // 104.45 number
 const numByBit1 = decimalNumber | 0;
 const numByBit2 = decimalNumber >> 0;
 console.log(numByBit1, typeof(numByBit1));  // 104 number
-console.log(numByBit2, typeof(numByBit2));  // 104 number
+console.log(numByBit2, typeof (numByBit2));  // 104 number

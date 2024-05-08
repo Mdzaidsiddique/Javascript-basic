@@ -14,7 +14,7 @@ arr.unshift(0) //add element at first
 let arr1 = new Array(1, 2, 3, 4);
 let arr2 = [5, 6, 7, 8]
 
-let arr3 = arr1.concat(arr2) 
+let arr3 = arr1.concat(arr2)
 //slice()
 console.log(arr3.slice(0, 3)); //original array won't change, exclude last parameter
 console.log(arr3);
@@ -35,7 +35,7 @@ console.log(array.includes(3)); //true
 
 
 //spread operator
-let array1 = [1, 2, 3, 5]
+let array1 = [1, 11, 3, 5]
 let array2 = new Array(6, 7, 8, 4)
 let array3 = [];
 array3.push(11,12)
@@ -44,3 +44,26 @@ array3.unshift(10)
 
 console.log(...array1, ...array2, ...array3) //print all arrays at a time
 
+// sorting
+
+let array23 = ["s", "asd", 'Zaid'];
+// console.log(array23.sort());
+// console.log(array1.sort());
+
+// (function aff() { }) //function expression
+// //immideatly invoke fn:: on function expression only
+//     (function aff() { })()
+
+
+
+let arz = [1, 2, 3]
+//cloning array
+let arz2 = arz.slice()
+
+console.log(arz, arz2);
+
+let arz3 = Array.from(arz)
+console.log(arz3);
+
+let arz4 = [...arz]
+console.log(arz4, typeof arz4);
