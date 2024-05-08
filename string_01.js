@@ -1,15 +1,20 @@
-//string : String is a primitive data type in js. i.e. it is use stack memory not heap
-let name = "Khan"
-let nationality = "India"
+/* 
+string : set of characters, immutable
+String is a primitive data type in js .i.e.it is use stack memory not heap
+*/
 
-//string creation
+let name = "Khan"
+let nationality = "Indian"
+
+// string creation
 let strTemp = `welcome  Mr ${name} to ${nationality}`
 console.log(typeof strTemp);
+
 // template litrals and String interpolation
 console.log(`My Name is ${name} and i am from ${nationality}`);
 
-let str = new String("zaid"); //Object DataType (non-primitive or reference)
-let str1 = "alif"    //string (premitive) data type
+let str = new String("zaid"); // reserved space in heap area, new -> constructor call
+let str1 = "alif";            // stack memory
 
 // string concatination
 let string1 = str + str1; 
@@ -19,7 +24,7 @@ let num = 240000;
 let numString = num.toString()
 console.log(numString, typeof (numString));
 
-//toLocaleString() : Language Sensitive
+// toLocaleString() : Language Sensitive
 console.log(num.toLocaleString("en-IN"), typeof(num.toLocaleString()));
 
 const firstName = "Zaid"
@@ -27,17 +32,16 @@ const firstName = "Zaid"
 console.log(firstName.toUpperCase())
 console.log(firstName.toLowerCase());
 
-//charAt();
-console.log(firstName.charAt(0));
-// indexOf()
-console.log(firstName.indexOf('a'))
+// charAt() & at()
+console.log(firstName.charAt(0), firstName.charAt(0));
+
+// indexOf() & lastIndexOf()
+console.log(firstName.indexOf('a'), firstName.lastIndexOf('a'))
 
 const lastName = "Siddique";
-console.log(lastName.lastIndexOf("d")); //last index od provided character
-console.log(lastName.indexOf("d")); //first index of given character
 
 // slice()
-console.log(lastName.slice(0, 3)); //return string first and last index excluded
+console.log(lastName.slice(0, 3)); //Sid
 
 //charCodeAt()
 console.log(lastName.charCodeAt(1)); //return unicode value

@@ -36,9 +36,16 @@ console.log(str3.toUpperCase() == str4.toUpperCase()); //false
 
 // replace(pattern, replacement)
 let finalString = (str3.replace("Hello", "Hi"))
-console.log(finalString)
 
-//Modifying string in JS
+//replaceAll(pattern, replacement) // find match and replace at every places
+let finalString2 = str3.replaceAll(" ", "-")
+console.log(finalString2)
 
 
+/*
 
+Object.assign([], string): It returns an array by assigning string characters to it.
+To convert the character array to the string we use 
+
+s.join(“”):  It returns a string by joining all items of the array.
+*/
