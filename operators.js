@@ -17,9 +17,12 @@ console.log("modulo = ", a % b);
 console.log("exponential = ", 2 ** 3);
 
 // Comparision operator [>,<,>=,<=,==,===,!=,!==]
-console.log(a < b);
-console.log(a > b);
-console.log(a < b);
-console.log(a < b);
-console.log(a < b);
-console.log(a < b);
+console.log(a < b, a<=b);
+console.log(a > b, a>=b);
+console.log(a == b, a===b);
+console.log(a != b, a !== b);
+
+// logical operator (&&, ||, &, |)
+
+
+// boolean operator (true, false)

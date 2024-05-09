@@ -50,13 +50,8 @@ let array23 = ["s", "asd", 'Zaid'];
 // console.log(array23.sort());
 // console.log(array1.sort());
 
-// (function aff() { }) //function expression
-// //immideatly invoke fn:: on function expression only
-//     (function aff() { })()
-
-
-
 let arz = [1, 2, 3]
+
 //cloning array
 let arz2 = arz.slice()
 
