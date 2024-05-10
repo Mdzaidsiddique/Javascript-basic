@@ -4,7 +4,15 @@ function functionName(parameter1, parameter2) {
 }
 
 // function call
-functionName(argument1, argument2); 
+functionName(argument1, argument2);  
+
+// function calculateCartPrice(...price) {
+    function calculateCartPrice(p1, p2, ...price) { //... rest operator: multiple parameter as a collection
+    // [price1, price2...] 
+    return price
+}
+let result = calculateCartPrice(200, 400, 500, 600);
+console.log(calculateCartPrice(200, 400, 500, 600));
 
 // function expression
 let fun = function(){}
