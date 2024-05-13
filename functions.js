@@ -15,7 +15,9 @@ let result = calculateCartPrice(200, 400, 500, 600);
 console.log(calculateCartPrice(200, 400, 500, 600));
 
 // function expression
-let fun = function(){}
+let fun = function () { }
+
+// closure : the ability of accessing paranet function variables inside child function in a nested function scenerio
  
 /*  :: types of function
     1. arrow function
