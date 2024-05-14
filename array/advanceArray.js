@@ -36,11 +36,15 @@ let sortedArrAec = arr1.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCa
 let sortedArrDec = arr1.sort((a, b) => b.toLowerCase().localeCompare(a.toLowerCase())); //dec
 console.log(sortedArrDec);
 
-// Arrays.map()
 
-// Array.some()
+// Array.some() :: take callback function and return true or false
 
-// Arrays.reduce()
+let ar = [2, 1, 2, 4, 3, 9, 8, 7, 5]
 
-// Arrays.fitler()
+//is there any even number present or not?
 
+let expResult =  ar.some((item) => {
+    return item % 2 == 0;
+})
+
+console.log(expResult);
