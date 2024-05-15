@@ -1,4 +1,5 @@
 // this keywords refers to current context
+// this works in arrow function not in other function
 
 const user = {
     username: "zaid",

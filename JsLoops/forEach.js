@@ -1,5 +1,6 @@
 /*
    Processed over arrays
+   returns undefined
 */
 
 const codingLanguages = ["JS", "Java", "Python", "Ruby", "Swift", "C++"]

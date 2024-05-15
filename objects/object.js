@@ -56,3 +56,8 @@ console.log(o2.user.userAddress.nationality());
 
 // check object properties
 console.log("id" in o2);
+
+
+// check ibject is empty or not 
+let ob = {}
+if(Object.keys(ob).length === 0) console.log("empty object");

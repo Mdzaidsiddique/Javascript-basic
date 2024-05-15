@@ -62,3 +62,8 @@ console.log(arz3);
 
 let arz4 = [...arz]
 console.log(arz4, typeof arz4);
+
+// check array is empty or not
+let arr6 = []
+
+if(arr6.length===0) console.log("Arrayt is empty");

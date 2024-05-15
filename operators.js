@@ -26,3 +26,19 @@ console.log(a != b, a !== b);
 
 
 // boolean operator (true, false)
+
+// nullish Coalescing Operator (??) : (null, undefined)
+// assign first truthy value
+let val;
+
+val = 5 ?? 10;
+
+val = null ?? 10;
+
+val = undefined ?? 10;
+
+val = null ?? undefined ?? 10 ?? 50
+
+// console.log(val);
+
+// terniary operator : condition ? true : false 
