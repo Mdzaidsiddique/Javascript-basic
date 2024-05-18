@@ -20,8 +20,8 @@ let fun = function () { }
 // closure : the ability of accessing paranet function variables inside child function in a nested function scenerio
  
 /*  :: types of function
-    1. arrow function or anonymous function or lambda function 
-    2. callback function or argument function
+    1. arrow function or lambda function 
+    2. callback function or argument function or anonymous function
     3. immideatly invocked function
 */
 

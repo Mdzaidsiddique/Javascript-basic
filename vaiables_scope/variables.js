@@ -1,3 +1,8 @@
+"use-strict" // enable strict mode of js
+
+//Strict mode is a way to opt into a restricted variant of JavaScript, which aims to catch common coding mistakes and "unsafe" actions such as defining global variables.
+// This can help developers write cleaner, more robust, and more efficient code.
+
 // variable :: Variables are used to store data in JavaScript. assign with (=) 
 
 var number = 5; //since start, function & global scoped, can be redeclared, mutable

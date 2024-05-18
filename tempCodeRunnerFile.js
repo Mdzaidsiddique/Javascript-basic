@@ -1,7 +1,21 @@
-let j = 0;
-// do {
-//     console.log("Welcome to do while loop");
-//     j += 3;
-// } while (target > j) {
-//     console.log(j);
-// }
+let obj = {
+    name : 'zaid',
+    age : 24,
+    havingGf : false
+}
+
+for(key in obj){
+    console.log(key);
+}
+
+console.log('------------------------');
+Object.defineProperty(obj, 'havingGf', {
+    value : true,
+    enumerable : false
+})
+
+for (const key in obj) {
+    console.log(key);
+}
+
+console.log(obj.propertyIsEnumerable('havingGf')); //
