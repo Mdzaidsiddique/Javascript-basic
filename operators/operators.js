@@ -24,6 +24,7 @@ console.log(a != b, a !== b);
 
 // logical operator (&&, ||, &, |)
 
+// unary operator (+)
 
 // boolean operator (true, false)
 

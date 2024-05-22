@@ -1,5 +1,5 @@
 /* 
-truthy values: "0", 'false', "0", function(){}, [], {} and everythig that is not falsy is truthy
+truthy values: "0", 'false', function(){}, [], {} and everythig that is not falsy is truthy
 falsy values: [zero, -0, 0n, "", false, null, undefined, NaN, documnet.all]
 
 (flase == false) is always true
